@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BeatRun Support</title>
+    <meta name="description" content="Support page for BeatRun: Running Music.">
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f2f2f0;
+        --text: #151515;
+        --muted: #656565;
+        --line: #d9d6cf;
+        --accent: #ff7a1a;
+        --panel: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.55;
+      }
+
+      main {
+        width: min(760px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 72px 0;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 44px;
+      }
+
+      .mark {
+        width: 48px;
+        height: 48px;
+        border-radius: 14px;
+        background:
+          linear-gradient(135deg, rgba(255, 205, 88, 0.95), rgba(255, 91, 20, 0.95)),
+          #0b0b0b;
+        box-shadow: inset 0 0 0 12px #0b0b0b;
+      }
+
+      .brand-name {
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 680px;
+        font-size: clamp(42px, 7vw, 72px);
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .lead {
+        margin: 24px 0 40px;
+        max-width: 620px;
+        color: var(--muted);
+        font-size: 20px;
+      }
+
+      .panel {
+        margin-top: 28px;
+        padding: 28px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+      }
+
+      h2 {
+        margin: 0 0 12px;
+        font-size: 22px;
+        letter-spacing: 0;
+      }
+
+      p {
+        margin: 0 0 14px;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        color: var(--text);
+        text-decoration-color: var(--accent);
+        text-decoration-thickness: 2px;
+        text-underline-offset: 4px;
+      }
+
+      .meta {
+        margin-top: 40px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand" aria-label="BeatRun">
+        <div class="mark" aria-hidden="true"></div>
+        <div class="brand-name">BeatRun</div>
+      </div>
+
+      <h1>Support for BeatRun: Running Music</h1>
+      <p class="lead">
+        BeatRun helps runners choose music by BPM and keep a simple, focused rhythm during a run.
+      </p>
+
+      <section class="panel" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>
+          For support, questions, or feedback about BeatRun, please email
+          <a href="mailto:235496139@qq.com">235496139@qq.com</a>.
+        </p>
+        <p>We usually respond within 3-5 business days.</p>
+      </section>
+
+      <section class="panel" aria-labelledby="privacy-title">
+        <h2 id="privacy-title">Privacy Policy</h2>
+        <p>
+          BeatRun does not require an account and does not collect personal data.
+          Read the full privacy policy here:
+          <a href="./privacy.html">BeatRun Privacy Policy</a>.
+        </p>
+      </section>
+
+      <p class="meta">Copyright &copy; 2026 Wei Hu. All rights reserved.</p>
+    </main>
+  </body>
+</html>
