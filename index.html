@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeatRun Support</title>
     <meta name="description" content="Support page for BeatRun: Running Music.">
+    <link rel="icon" href="./assets/beatrun-logo.png">
     <style>
       :root {
         color-scheme: light;
@@ -45,11 +46,8 @@
       .mark {
         width: 48px;
         height: 48px;
-        border-radius: 14px;
-        background:
-          linear-gradient(135deg, rgba(255, 205, 88, 0.95), rgba(255, 91, 20, 0.95)),
-          #0b0b0b;
-        box-shadow: inset 0 0 0 12px #0b0b0b;
+        display: block;
+        border-radius: 12px;
       }
 
       .brand-name {
@@ -112,7 +110,7 @@
   <body>
     <main>
       <div class="brand" aria-label="BeatRun">
-        <div class="mark" aria-hidden="true"></div>
+        <img class="mark" src="./assets/beatrun-logo.png" alt="" aria-hidden="true">
         <div class="brand-name">BeatRun</div>
       </div>
 
